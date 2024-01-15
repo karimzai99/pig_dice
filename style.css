@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    display: flex;
+}
+
+body{
+    background-color: brown;
+    
+}
+.main{
+    display: block;
+    width: 50%;
+}
