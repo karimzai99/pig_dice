@@ -1,13 +1,127 @@
 *{
     margin: 0;
+    padding: 0;
+
+}
+body{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-body{
-    background-color: brown;
-    
+
+main{
+    position: relative;
+    height: 60rem;
+    width: 100rem;
+    background-color: blue;
+    display: flex;
+  
+ 
 }
-.main{
-    display: block;
-    width: 50%;
-}
+.player {
+    flex: 50%;
+ padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+ 
+
+  .score {
+    font-size: 5rem;
+  
+    color: red;
+ margin: 0 0 50px 0;
+  }
+
+.player--active {
+    background-color: purple;
+  }
+ 
+  /* .player--active .score {
+    font-weight: 400;
+  } */
+  
+  .player--active .current {
+    opacity: 1;
+  }
+  
+  .current {
+    background-color: red;
+    color: #fff;
+    width: 60%;
+    padding: 4rem;
+    text-align: center;
+
+  }
+  
+  .current-label {
+
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: white;
+  }
+  
+  .current-score {
+    font-size: 3.5rem;
+  }
+  
+  /* ABSOLUTE POSITIONED ELEMENTS */
+  .btn {
+    position: absolute;
+    left: 50%;
+    color: #444;
+
+
+
+    font-size: 1.8rem;
+    cursor: pointer;
+  
+    background-color: white;
+    background-color: gray;
+  
+  }
+  
+  
+  
+  .btn--new {
+    top: 4rem;
+  }
+  .btn--roll {
+    top: 39.3rem;
+  }
+  .btn--hold {
+    top: 46.1rem;
+  }
+  
+
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .dice {
+    position: absolute;
+    left: 50%;
+    top: 16.5rem;
+   transform: translateX(-50%); /*google it */
+    height: 10rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .player--winner {
+    background-color: #2f2f2f;
+  }
+  
+  .player--winner .name {
+    font-weight: 700;
+    color: #c7365f;
+  }
+  .hidden{
+    display: none;
+  }
+  
+
+  
