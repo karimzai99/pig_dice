@@ -100,6 +100,8 @@ btnHold.addEventListener('click', function () {
   }
 });
 
+// new button where user can chose to play again the game.
+btnNew.addEventListener('click', init)
 
 
 
