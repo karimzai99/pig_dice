@@ -29,7 +29,7 @@ Run the game file (e.g., index.html) to start playing.
 
 Files
 
-1. pig_dice.js: The main javaScript containing the game logic.
+1. dice.js: The main javaScript containing the game logic.
 2. index.html: the structure of pig dice game (e.g, webpage)
 3. style.css: this is where the web page is designed
 4. README.md: The documentation you are currently reading.
