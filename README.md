@@ -35,6 +35,10 @@ Files
 4. README.md: The documentation you are currently reading.
 
 
-Dependencies:
+technologies:
 
 This game is implemented in HTML, CSS and javascript, and no external libraries are required.
+
+problems: 
+
+I wanted to make buttons center but couldn't do that. and also I wanted to show the winner in the end of game but that was a real challening for me.
